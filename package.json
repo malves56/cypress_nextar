@@ -1,0 +1,26 @@
+{
+    "name": "maydson-nextar",
+    "version": "1.0.0",
+    "description": "Repositório do desafio proposto pela Nextar",
+    "scripts": {
+      "cy:open": "cypress open",
+      "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
+      "test": "cypress run",
+      "test:mobile": "cypress run --config viewportWidth=410 viewportHeight=860"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/malves56/cypress-nextar.git"
+    },
+    "keywords": [
+      "Testing",
+      "Cypress.io",
+      "Nextar",
+      "Loja"
+    ],
+    "author": "Maydson Alves <maydson.alves@yahoo.com> ",
+    "homepage": "https://github.com/malves56/cypress-nextar#readme",
+    "devDependencies": {
+      "cypress": "^9.5.1"
+    }
+  }
